@@ -45,8 +45,8 @@ export const Home = () => {
             </div>
         </div>
         <div className="flex flex-col items-center justify-center bg-slate-300 w-full py-14">
-            <div className="mt-10 mb-16 text-white text-3xl font-medium drop-shadow-xl">Access Your Payslip Anytime, Anywhere with Ease.</div>
-            <img src={homeElement} alt="payslip template" className="shadow-2xl mb-5" />
+            <div className="mt-10 mb-16 text-white text-xl text-center sm:text-3xl font-medium drop-shadow-xl">Access Your Payslip Anytime, Anywhere with Ease.</div>
+            <img src={homeElement} alt="payslip template" className="w-4/5 sm:w-auto shadow-2xl mb-5" />
         </div>
         <Footer />
     </div>

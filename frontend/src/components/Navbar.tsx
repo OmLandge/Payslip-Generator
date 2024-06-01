@@ -2,6 +2,7 @@
 import { useNavigate } from "react-router-dom"
 import logoNew from "../assets/logoNew.png"
 import { LogoutIcon } from "./LogoutIcon";
+import { HamburgerMenu } from "./HamburgerMenu";
 
 interface input{
     loginStatus: boolean;
@@ -17,7 +18,7 @@ export const Navbar = ({loginStatus, name} : input) => {
             </div>
             <div className="mx-7">
                 {loginStatus ? 
-                    <div className="flex">
+                    <div className="hidden sm:flex">
                         <button onClick={()=>{
                             (loginStatus) ? null : navigate("/login");
                         }} className="transition-all ease-in-out duration-500 px-8 mx-3 h-12 border-2 text-gray-600 border-gray-400 rounded-md hover:bg-gray-200 hover:font-medium">{loginStatus ? name:"Login"}</button>
@@ -31,8 +32,11 @@ export const Navbar = ({loginStatus, name} : input) => {
                 :
                     <button onClick={()=>{
                         (loginStatus) ? null : navigate("/login");
-                    }} className="transition-all ease-in-out duration-500 px-8 h-12 border-2 border-gray-400 rounded-md hover:bg-gray-200 hover:font-medium">{loginStatus ? name:"Login"}</button>
+                    }} className="hidden sm:block transition-all ease-in-out duration-500 px-8 h-12 border-2 border-gray-400 rounded-md hover:bg-gray-200 hover:font-medium">{loginStatus ? name:"Login"}</button>
                  }
+                <div className="sm:hidden flex items-center">
+                    <HamburgerMenu loginStatus={loginStatus} name={name} />
+                </div>
             </div>
         </div>
     </div>
