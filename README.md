@@ -12,22 +12,22 @@ The Payslip Generator is a web application designed to generate monthly payslips
 ## Screenshots
 
 ### Home Page
-![Home Page](https://raw.githubusercontent.com/OmLandge/Payslip-Generator/master/frontend/public/home.png?token=GHSAT0AAAAAACSQVXXIAGRCOOXOWBKFMOPIZS4DLEQ)
+![Home Page](frontend/public/home.png)
 
 ### Dashboard
-![Dashboard](https://raw.githubusercontent.com/OmLandge/Payslip-Generator/master/frontend/public/home2.png?token=GHSAT0AAAAAACSQVXXIEBINUPVJFW4QFQIKZS4DO7Q)
+![Dashboard](frontend/public/home2.png)
 
 ### Contact Page
-![Contact Page](https://raw.githubusercontent.com/OmLandge/Payslip-Generator/master/frontend/public/contact.png?token=GHSAT0AAAAAACSQVXXIK7KO5R5TEEKGOHBKZS4DPWQ)
+![Contact Page](frontend/public/contact.png)
 
 ### Login Page
-![Login Page](https://raw.githubusercontent.com/OmLandge/Payslip-Generator/master/frontend/public/login.png?token=GHSAT0AAAAAACSQVXXJFTGW3P7IUTDYZR6YZS4DQFA)
+![Login Page](frontend/public/login.png)
 
 ### Payslip Generation Page
-![Payslip Generation Page](https://raw.githubusercontent.com/OmLandge/Payslip-Generator/master/frontend/public/payslipPage.png?token=GHSAT0AAAAAACSQVXXIDFSV2J3J56HL6B5YZS4DQVQ)
+![Payslip Generation Page](frontend/public/payslipPage.png)
 
 ### Payslip Preview
-![Payslip Preview](https://raw.githubusercontent.com/OmLandge/Payslip-Generator/master/frontend/public/payslip.png?token=GHSAT0AAAAAACSQVXXJJKU52YKNLDEUQSQCZS4DRFA)
+![Payslip Preview](frontend/public/payslip.png)
 
 ## Getting Started
 
