@@ -1,6 +1,6 @@
 # Payslip Generator
 
-The Payslip Generator is a web application designed to generate monthly payslips for workers. This user-friendly tool streamlines the process of creating, managing, and distributing payslips, making it ideal for small businesses and HR departments.
+The Payslip Generator is a web application designed to generate monthly payslips for workers. This user-friendly tool streamlines the process of distributing payslips, making it ideal for small businesses and HR departments.
 
 ## Features
 
@@ -52,31 +52,51 @@ To get a local copy up and running, follow these steps.
     cd Payslip-Generator/backend
     ```
 
-3. Install backend dependencies:
+3. Rename the `.env.example` file to `.env`:
+
+    ```bash
+    mv .env.example .env
+    ```
+
+4. Update the `.env` file with your configuration settings.
+
+5. Install backend dependencies:
 
     ```bash
     npm install
     ```
 
-4. Start the backend server:
+6. Run Prisma migrations:
+
+    ```bash
+    npx prisma migrate dev --name init
+    ```
+
+7. Generate Prisma client:
+
+    ```bash
+    npx prisma generate
+    ```
+
+8. Start the backend server:
 
     ```bash
     npm run dev
     ```
 
-5. Open a new terminal and navigate to the frontend directory:
+9. Open a new terminal and navigate to the frontend directory:
 
     ```bash
     cd Payslip-Generator/frontend
     ```
 
-6. Install frontend dependencies:
+10. Install frontend dependencies:
 
     ```bash
     npm install
     ```
 
-7. Start the frontend server:
+11. Start the frontend server:
 
     ```bash
     npm run dev
@@ -84,7 +104,7 @@ To get a local copy up and running, follow these steps.
 
 ## Usage
 
-Once the servers are running, you can access the application by navigating to `http://localhost:3000` in your web browser. From here, you can log in, generate payslips, and manage your account.
+Once the servers are running, you can access the application by navigating to `http://localhost:5173` in your web browser. From here, you can log in, generate payslips, and manage your account.
 
 ## Contributing
 
@@ -102,7 +122,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Om Landge - [LinkedIn](https://www.linkedin.com/in/omlandge) - [Email](mailto:omlandge@example.com)
+Om Landge - [LinkedIn](https://www.linkedin.com/in/om-landge-615073303) - [Email](mailto:omlandge0000@gmail.com)
 
 Project Link: [https://github.com/OmLandge/Payslip-Generator](https://github.com/OmLandge/Payslip-Generator)
 
